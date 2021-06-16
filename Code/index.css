@@ -81,15 +81,11 @@ nav{
     padding-right: 3px;
 }
 footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
     background-color:#323544 ;
+    margin-top: auto;
     color: whitesmoke;
     text-align: center;
-     
+    padding-top: 7px;
 }
 #phones {
     /* Start the shake animation and make the animation last for 0.5 seconds */
@@ -275,4 +271,10 @@ footer{
         width: 100%;
     }
       
+}
+@media (min-width:300px) and (max-width:375px) {
+    .icons{
+        margin-left: 10px;
+        gap: 20px;
+    }
 }
