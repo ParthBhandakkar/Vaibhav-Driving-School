@@ -98,8 +98,11 @@ footer{
         margin-left: 50px;
     }
     footer{
-        width: 100%;
-        margin-bottom: 0px;
+        background-color:#323544 ;
+        margin-top: auto;
+        color: whitesmoke;
+        text-align: center;
+        padding-top: 7px;
     }
 }
 @media(max-width:768px) and (max-width:992px) {
