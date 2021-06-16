@@ -31,8 +31,12 @@ body{
     margin-left: 170px;
 }
 footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
     background-color:#323544 ;
-    margin-top:64px ;
     color: whitesmoke;
     text-align: center;
     padding-top: 5px;
@@ -67,43 +71,56 @@ footer{
 	from { color: white; }
 	to { color: gray; }
 }
-@media(max-width:1316px){
+
+@media(min-width:992px) and (max-width:1200px) {
     .navbar{
-        width: 1400px;
+        width: 100%;
     }
     .content{
-        width: 1400px;
-    }
-    footer{
-        width: 1400px;
-    }
-}
-
-
-@media(max-width:998px) {
-    .navbar{
-        width: 1350px;
-    }
-    .content{
-        width: 1350px;
-        padding-left: 0px;
-        margin-left: 0px;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
     }
     .about{
-        width:980px;
-        margin-left: 175px;
+        width:90%;
+        padding-left: 0px;
+        margin-left: 50px;
     }
     footer{
-        width: 1349px;
+        width: 100%;
         margin-bottom: 0px;
     }
 }
 
-@media(max-width:768px) {
-    /* html{
-        font-size: 45%; */
-    
-    /* *{
-        margin: 0px ;
-    }   */
+@media(max-width:768px) and (max-width:992px) {
+    .navbar{
+        width: 100%;
+    }
+    .content{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .about{
+        width:90%;
+        padding-left: 0px;
+        margin-left: 50px;
+    }
+    .text{
+        margin: 10px;
+    }
+    footer{
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+}
+@media (max-width:480px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .about{
+        margin-left: 20px;
+    }
 }
