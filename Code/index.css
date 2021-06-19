@@ -15,6 +15,9 @@ body{
     margin-right: 0px;
     padding-left: 80px;
 }
+p{
+    font-family: 'Permanent Marker', cursive;
+}
 nav{
     position: fixed;
 }

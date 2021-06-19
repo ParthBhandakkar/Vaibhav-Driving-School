@@ -1,11 +1,15 @@
 body{
     height: 100vh;
+    position: relative;
     font-family: 'Roboto Slab', serif;
 }
 .content{
     display: flex;
     flex-direction: column;
     gap: 30px;
+}
+li{
+    font-family: 'Permanent Marker', cursive;
 }
 .image{
     background: url(background.jpg);
@@ -30,8 +34,14 @@ body{
     height: 300px;
     margin-left: 170px;
 }
+h2{
+    padding: 10px;
+}
 footer{
     background-color:#323544 ;
+    bottom: 0;
+    position: relative;
+    width: 100%;
     margin-top: auto;
     color: whitesmoke;
     text-align: center;

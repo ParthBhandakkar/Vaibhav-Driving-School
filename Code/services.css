@@ -1,5 +1,6 @@
 body{
     height: 100vh;
+    position: relative;
     font-family: 'Roboto Slab', serif;
 }
 .content{
@@ -35,12 +36,18 @@ body{
     height: 300px;
     margin-left: 170px;
 }
+li{
+    font-family: 'Permanent Marker', cursive;
+}
 .text{
     width: 1200px;
     margin-left: 50px;
 }
 footer{
     background-color:#323544 ;
+    bottom: 0;
+    position: relative;
+    width: 100%;
     margin-top: auto;
     color: whitesmoke;
     text-align: center;
@@ -125,8 +132,14 @@ footer{
         margin-left: 50px;
     }
     footer{
+        background-color:#323544 ;
+        bottom: 0;
+        position: absolute;
         width: 100%;
-        margin-bottom: 0px;
+        margin-top: auto;
+        color: whitesmoke;
+        text-align: center;
+        padding-top: 7px;
     }
 }
 @media (max-width:480px) {
