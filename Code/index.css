@@ -1,7 +1,7 @@
 body{
     background: url(back.jpg);
     height: 100vh;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto Condensed', serif;
 }
 .content{
     background-image: url(background.jpg);
@@ -14,12 +14,22 @@ body{
     height: 30px;
     margin-right: 0px;
     padding-left: 80px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px black;
+}
+#number{
+    font-weight: bolder;
 }
 p{
-    font-family: 'Permanent Marker', cursive;
+font-family: 'Roboto Condensed', sans-serif;
 }
 nav{
-    position: fixed;
+    position: absolute;
+}
+.navbar-brand{
+    font-weight: bolder;
+    text-shadow: 2px 0px 2px black;
+    margin-left: 10px;
 }
 .nav-link{
     padding-left: 30px;
@@ -37,7 +47,7 @@ nav{
     padding-left: 120px;
 }
 .navbar-nav{
-    margin-left: 300px;
+    margin-left: 450px;
     padding-left: 100px;
 }
 
@@ -117,8 +127,8 @@ footer{
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
   @keyframes color_change {
-	from { color: white; }
-	to { color: gray; }
+	from { color: red; }
+	to { color: black; }
 }
 @media(min-width:992px) and (max-width:1200px) {  
     
