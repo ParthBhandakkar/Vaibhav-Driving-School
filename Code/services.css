@@ -140,14 +140,8 @@ footer{
         margin-left: 50px;
     }
     footer{
-        background-color:#323544 ;
-        bottom: 0;
-        position: absolute;
         width: 100%;
-        margin-top: auto;
-        color: whitesmoke;
-        text-align: center;
-        padding-top: 7px;
+        margin-bottom: 0px;
     }
 }
 @media (max-width:480px) {
